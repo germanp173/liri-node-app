@@ -62,7 +62,7 @@ node liri.js
 
 Once you start LIRI, you'll be able to select the available commands:
 
-![Alt text](assets/start-liri.png)
+![Alt text](./assets/start-liri.png)
 
 ## Examples
 
