@@ -16,12 +16,12 @@ LIRI accepts the followings commands:
 1. [Getting Started](#getting-started)
     1. [Prerequisites](#prerequisites)
     2. [Installing](#installing)
-2. [Examples](#examples)
+2. [Run](#run)
+3. [Examples](#examples)
     1. [concert_this](#concert_this)
     2. [spotify_this_song](#spotify_this_song)
     3. [movie_this](#movie_this)
     4. [do_what_it_says](#do_what_it_says)
-3. [Run](#run)
 4. [Acknowledgments](#acknowledgments)
 
 ## Getting Started
