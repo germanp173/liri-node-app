@@ -62,14 +62,15 @@ node liri.js
 
 Once you start LIRI, you'll be able to select from the available commands like so:
 
-![Alt text](/images/start-liri.png)
+![Start Image](/images/start-liri.png)
 
 ## Examples
 
 ### concert_this
 
-* **spotify_this_song**
-* Testing
+* Select the `concert_this` command and type in one of your favorite artist to check out what concerts they have coming up!
+
+![Concert This](/images/concert-this.gif)
 
 ### spotify_this_song
 
