@@ -1,6 +1,6 @@
 # LIRI Node Application
 
-A Language Interpretation and Recognition Interface (LIRI) command line node application.
+LIRI is a Language Interpretation and Recognition Interface command line node application.
 
 Use LIRI to search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
@@ -68,22 +68,58 @@ Once you start LIRI, you'll be able to select from the available commands like s
 
 ### concert_this
 
-* Select the `concert_this` command and type in one of your favorite artist to check out what concerts they have coming up!
+* Select the `concert_this` command and type in your favorite artist to check out what concerts they have coming up!
+* The venue name, location and date of each concert will be shown
 
 ![Concert This](/images/concert-this.gif)
 
+* If the artist has no upcoming concerts, you'll get this:
+
+![Concert This None](/images/concert-this-none.gif)
+
+* If you type in an unknown artist, you'll get this:
+
+![Concert This Error](/images/concert-this-error.gif)
+
 ### spotify_this_song
+
+* Select the `spotify_this_song` command and type in a song you want info on!
+
+![Spotify This](/images/spotify-this-song.gif)
+
+* If you type in an unknown song, you'll get this:
+
+![Spotify This Error](/images/spotify-this-song-error.gif)
 
 ### movie_this
 
+* Select the `movie_this` command and type in a movie you want info on!
+
+![Movie This](/images/movie-this.gif)
+
+* If you type in an unknown movie, you'll get this:
+
+![Movie This Error](/images/movie-this-error.gif)
+
 ### do_what_it_says
+
+* The `do_what_it_says` command will run the command and argument specified in the `random.txt` file
+* In the example below, the `random.txt` file contains the following text:
+
+```
+spotify_this_song,"I Want it That Way"
+```
+
+![Random Spotify](/images/random-spotify.gif)
+
+* As another example, the `random.txt` file here contains the following text:
+
+```
+movie_this,"Shutter Island"
+```
+
+![Random Movie](/images/random-movie.gif)
 
 ## Built With
 
 * [Node](https://nodejs.org/en/) - The framework used
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
