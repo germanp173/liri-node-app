@@ -22,7 +22,7 @@ LIRI accepts the followings commands:
     2. [spotify_this_song](#spotify_this_song)
     3. [movie_this](#movie_this)
     4. [do_what_it_says](#do_what_it_says)
-4. [Acknowledgments](#acknowledgments)
+4. [Built With](#built-with)
 
 ## Getting Started
 
