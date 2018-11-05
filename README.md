@@ -60,9 +60,9 @@ To run LIRI simply run the following command at the root of the repo:
 node liri.js
 ```
 
-Once you start LIRI, you'll be able to select the available commands:
+Once you start LIRI, you'll be able to select from the available commands like so:
 
-![Alt text](./assets/start-liri.png)
+![Alt text](/assets/images/start-liri.png)
 
 ## Examples
 
